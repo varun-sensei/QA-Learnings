@@ -50,21 +50,59 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[17.14.1, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.14.0, )"
+              "version": "[4.4.0, )"
             },
             "NUnit.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.9.0, )"
+              "version": "[4.10.0, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[5.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.35.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.35.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[140.0.7339.20700, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[140.0.3485.66, )"
             },
             "coverlet.collector": {
               "target": "Package",
